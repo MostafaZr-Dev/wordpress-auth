@@ -94,6 +94,7 @@ jQuery(document).ready(function ($) {
 
     $('#registerForm').on('submit', function (event) {
         event.preventDefault();
+
         let user_first_name = $("#user_first_name").val();
         let user_last_name = $("#user_last_name").val();
         let user_email = $("#user_email").val();
