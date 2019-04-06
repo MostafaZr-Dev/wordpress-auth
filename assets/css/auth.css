@@ -1,0 +1,66 @@
+.auth-wrapper{
+    font-family: "B Yekan", "sans-serif" !important;
+}
+
+.login-wrapper, .register-wrapper{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px 5px #ddd;
+    padding: 20px;
+}
+
+.auth-wrapper input[type = "text"]{
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-row{
+    margin: 20px 0;
+}
+
+.auth-wrapper button{
+    width: 100%;
+    background-color: #9143d9;
+}
+
+.auth-wrapper button:hover{
+    background-color: rgba(145, 67, 217, 0.69);
+}
+
+.auth-wrapper .alert{
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-wrapper .alert p {
+    margin: 0;
+}
+
+.auth-wrapper .alert.alert-error{
+    background-color: #eeaeae;
+}
+
+.auth-wrapper .alert.alert-success{
+    background-color: #c9e6a9;
+}
+
+p.no-login{
+    font-family: "B Yekan", "sans-serif" !important;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.46);
+    border: 3px solid #333;
+    padding: 25px;
+    background-color: rgba(255, 0, 0, 0.52);
+    border-radius: 10px;
+}
+
+
+
+
+

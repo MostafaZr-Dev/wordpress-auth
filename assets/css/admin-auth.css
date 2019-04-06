@@ -1,0 +1,42 @@
+table.table-auth{
+    padding: 15px;
+    border: 2px solid #333;
+    margin: -1px;
+}
+
+.header-options{
+    margin-bottom: 10px !important;
+}
+
+.nav-tab{
+    border: 2px solid #333;
+    border-bottom: none;
+    position: relative;
+}
+
+.nav-tab:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-tab-active{
+    background: #fff;
+    color: #000;
+}
+
+.nav-tab-active:hover{
+    border-bottom: none;
+}
+
+.nav-tab-active:after {
+    content: "\25bc";
+    position: absolute;
+    top: 95%;
+    left: 33%;
+    font-size: 20px;
+    color: #000;
+}
+
+.button-auth{
+    border: 2px solid #000 !important;
+}
